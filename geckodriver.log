@@ -1018,3 +1018,578 @@ JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=583385
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\Adela\AppData\Local\Temp\rust_mozprofileAuB424\thumbnails) because it does not exist
 1670417030566	Marionette	INFO	Stopped listening on port 50838
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670429112202	geckodriver	INFO	Listening on 127.0.0.1:53907
+1670429115686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53908" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile9xQMLw"
+1670429117922	Marionette	INFO	Marionette enabled
+1670429117945	Marionette	INFO	Listening on port 53930
+WebDriver BiDi listening on ws://127.0.0.1:53908
+1670429118456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile9xQMLw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53908/devtools/browser/0994ff43-314b-4ce4-b9f2-2261e341b5ca
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11283446, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11283446, line 51: TypeError: m is null
+1670429148098	Marionette	INFO	Stopped listening on port 53930
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670429285980	geckodriver	INFO	Listening on 127.0.0.1:61497
+1670429289047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61498" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile1acTs2"
+1670429290102	Marionette	INFO	Marionette enabled
+1670429290110	Marionette	INFO	Listening on port 61503
+WebDriver BiDi listening on ws://127.0.0.1:61498
+1670429290919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile1acTs2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61498/devtools/browser/02c6914a-6c16-4f96-bbd3-5f7975fafabc
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=58003650, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+1670429311053	Marionette	INFO	Stopped listening on port 61503
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670429392711	geckodriver	INFO	Listening on 127.0.0.1:61634
+1670429395807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61635" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilerf7dLG"
+1670429396617	Marionette	INFO	Marionette enabled
+1670429396624	Marionette	INFO	Listening on port 61652
+WebDriver BiDi listening on ws://127.0.0.1:61635
+1670429397119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilerf7dLG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61635/devtools/browser/3949213c-3852-4336-a770-0117fb9f678c
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11283446, line 51: TypeError: m is null
+1670429407394	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:220:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11283446, line 51: TypeError: m is null
+1670429671000	Marionette	INFO	Stopped listening on port 61652
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 25236, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+onette	INFO	Listening on port 61866
+WebDriver BiDi listening on ws://127.0.0.1:61861
+1670429666788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileNNJ0Mj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61861/devtools/browser/35d7eb5e-6995-40e3-a019-738c05dc5682
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21776268, line 51: TypeError: m is null
+1670429696261	Marionette	INFO	Stopped listening on port 61866
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670429754675	geckodriver	INFO	Listening on 127.0.0.1:61998
+1670429757730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61999" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFguf9y"
+1670429758613	Marionette	INFO	Marionette enabled
+1670429758623	Marionette	INFO	Listening on port 62014
+WebDriver BiDi listening on ws://127.0.0.1:61999
+1670429758841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFguf9y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61999/devtools/browser/26802d22-09f7-4c02-946a-a4445e760209
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11283446, line 51: TypeError: m is null
+1670429774892	Marionette	INFO	Stopped listening on port 62014
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10460, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670429838075	geckodriver	INFO	Listening on 127.0.0.1:62102
+1670429841158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62103" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileZykrzl"
+1670429841931	Marionette	INFO	Marionette enabled
+1670429841940	Marionette	INFO	Listening on port 62119
+WebDriver BiDi listening on ws://127.0.0.1:62103
+1670429842451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileZykrzl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62103/devtools/browser/aa0301e7-c175-4340-a9f6-6d0a67f29ae2
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+1670429864438	Marionette	INFO	Stopped listening on port 62119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670429880677	geckodriver	INFO	Listening on 127.0.0.1:62188
+1670429883763	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62189" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilevoO2av"
+1670429884591	Marionette	INFO	Marionette enabled
+1670429884599	Marionette	INFO	Listening on port 62200
+WebDriver BiDi listening on ws://127.0.0.1:62189
+1670429885042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilevoO2av\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62189/devtools/browser/db024fbc-c4c7-4edc-b3b4-00eeeff558ac
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21776268, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21776268, line 51: TypeError: m is null
+1670429903869	Marionette	INFO	Stopped listening on port 62200
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670430060232	geckodriver	INFO	Listening on 127.0.0.1:62395
+1670430063291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62396" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileiqCNXl"
+1670430064025	Marionette	INFO	Marionette enabled
+1670430064032	Marionette	INFO	Listening on port 62402
+WebDriver BiDi listening on ws://127.0.0.1:62396
+1670430064505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileiqCNXl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62396/devtools/browser/8062ab17-a0d0-4c54-81dc-151a9f3d93c5
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=58003650, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+1670430092766	Marionette	INFO	Stopped listening on port 62402
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670430121399	geckodriver	INFO	Listening on 127.0.0.1:62479
+1670430124468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62480" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFTqZ1o"
+1670430125231	Marionette	INFO	Marionette enabled
+1670430125241	Marionette	INFO	Listening on port 62496
+WebDriver BiDi listening on ws://127.0.0.1:62480
+1670430125823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFTqZ1o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62480/devtools/browser/5b9def5e-5ff8-475d-8986-7b4f4562ed90
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=58003650, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+1670430143323	Marionette	INFO	Stopped listening on port 62496
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670430204560	geckodriver	INFO	Listening on 127.0.0.1:62639
+1670430207621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62640" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileAJ5qeM"
+1670430208387	Marionette	INFO	Marionette enabled
+1670430208393	Marionette	INFO	Listening on port 62648
+WebDriver BiDi listening on ws://127.0.0.1:62640
+1670430208877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileAJ5qeM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62640/devtools/browser/31d646c3-c898-46f9-96da-c33259bc5193
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=58003650, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73318296, line 51: TypeError: m is null
+1670430226422	Marionette	INFO	Stopped listening on port 62648
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670430318763	geckodriver	INFO	Listening on 127.0.0.1:62804
+1670430321825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62805" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileryH38F"
+1670430322500	Marionette	INFO	Marionette enabled
+1670430322507	Marionette	INFO	Listening on port 62810
+WebDriver BiDi listening on ws://127.0.0.1:62805
+1670430322958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileryH38F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62805/devtools/browser/9050cd91-4726-45fe-9786-971e19837cba
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21776268, line 51: TypeError: m is null
+1670430335083	Marionette	INFO	Stopped listening on port 62810
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 32808, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1670430459401	geckodriver	INFO	Listening on 127.0.0.1:62969
+1670430462455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62970" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileSkMeo0"
+1670430463145	Marionette	INFO	Marionette enabled
+1670430463151	Marionette	INFO	Listening on port 62975
+WebDriver BiDi listening on ws://127.0.0.1:62970
+1670430463618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileSkMeo0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62970/devtools/browser/8c3bc309-b07a-4bdd-b12a-27def7b7f6a1
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=33911097, line 51: TypeError: m is null
+1670430647544	geckodriver	INFO	Listening on 127.0.0.1:63151
+1670430650614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63152" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilezH44Ea"
+1670430651453	Marionette	INFO	Marionette enabled
+1670430651464	Marionette	INFO	Listening on port 63165
+WebDriver BiDi listening on ws://127.0.0.1:63152
+1670430651911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilezH44Ea\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63152/devtools/browser/3465cce6-9d9c-4bae-8f0d-59e31ec01ffb
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=33911097, line 51: TypeError: m is null
+1670430668809	Marionette	INFO	Stopped listening on port 63165
+1670430809379	geckodriver	INFO	Listening on 127.0.0.1:63284
+1670430812484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63285" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile0YY9v0"
+1670430813242	Marionette	INFO	Marionette enabled
+1670430813251	Marionette	INFO	Listening on port 63301
+WebDriver BiDi listening on ws://127.0.0.1:63285
+1670430813807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile0YY9v0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63285/devtools/browser/31df3847-1e44-4de9-a1ff-8de9ed21eef5
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=5240940, line 51: TypeError: m is null
+1670430830764	Marionette	INFO	Stopped listening on port 63301
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670431158472	geckodriver	INFO	Listening on 127.0.0.1:63681
+1670431161543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63682" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilemWyfA5"
+1670431162256	Marionette	INFO	Marionette enabled
+1670431162266	Marionette	INFO	Listening on port 63687
+WebDriver BiDi listening on ws://127.0.0.1:63682
+1670431162711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilemWyfA5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63682/devtools/browser/dbb1ebb3-8f96-4555-94e3-41c03bc0a5a3
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29586670, line 51: TypeError: m is null
+1670431177182	Marionette	INFO	Stopped listening on port 63687
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670431440063	geckodriver	INFO	Listening on 127.0.0.1:63965
+1670431443128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63966" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileSV8Kt4"
+1670431443776	Marionette	INFO	Marionette enabled
+1670431443782	Marionette	INFO	Listening on port 63974
+WebDriver BiDi listening on ws://127.0.0.1:63966
+1670431444241	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileSV8Kt4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63966/devtools/browser/71535843-f4f4-4322-a6d6-9cc735b218e2
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29586670, line 51: TypeError: m is null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1670432352508	Marionette	INFO	Stopped listening on port 63974
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Adela\AppData\Local\Temp\rust_mozprofileSV8Kt4\protections.sqlite
+get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileBPT6Ly\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64129/devtools/browser/bfce173f-9671-4d37-a656-d8ffe1ddaffe
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=31986413, line 51: TypeError: m is null
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+moteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilenBVGdM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64391/devtools/browser/de832841-0bb2-4da8-b38f-e96d53142120
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29586670, line 51: TypeError: m is null
+JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: blocklists/addons-bloomfilters getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+moteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile3BOSUc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64480/devtools/browser/18f7bdd6-3db6-467e-960d-d1af72165bcd
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29586670, line 51: TypeError: m is null
+JavaScript error: , line 0: uncaught exception: null
+console.log: "RemoteSettingsWorker error: QuotaExceededError: IndexedDB:  execute() The current transaction exceeded its quota limitations."
+console.error: services.settings: 
+  Message: StorageError: Storage error: AbortError: IndexedDB: security-state/intermediates importChanges() IndexedDB:  importChanges() in security-state/intermediates A request was aborted, for example through a call to IDBTransaction.abort.
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.jsm:162:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:886:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: security-state/onecrl getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+1670432352369	Marionette	INFO	Stopped listening on port 64485
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+le C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileT2f1FI\\sessionstore.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+1670433127468	geckodriver	INFO	Listening on 127.0.0.1:50328
+1670433130524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50329" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilesoJHcv"
+1670433131049	Marionette	INFO	Marionette enabled
+1670433131059	Marionette	INFO	Listening on port 50336
+WebDriver BiDi listening on ws://127.0.0.1:50329
+1670433131794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilesoJHcv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50329/devtools/browser/3a30bab5-69e7-43c7-abbc-5c465b003cf1
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=63530185, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=63530185, line 51: TypeError: m is null
+1670433710453	geckodriver	INFO	Listening on 127.0.0.1:50592
+1670433713498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50593" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileM3hmGY"
+1670433714005	Marionette	INFO	Marionette enabled
+1670433714011	Marionette	INFO	Listening on port 50598
+WebDriver BiDi listening on ws://127.0.0.1:50593
+1670433714745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileM3hmGY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50593/devtools/browser/cfd11ec4-413b-4319-aa35-74115fc91588
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=25491134, line 51: TypeError: m is null
+1670433897477	geckodriver	INFO	Listening on 127.0.0.1:50681
+1670433900536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50682" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile1KEgw2"
+1670433900972	Marionette	INFO	Marionette enabled
+1670433900978	Marionette	INFO	Listening on port 50687
+WebDriver BiDi listening on ws://127.0.0.1:50682
+1670433901142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile1KEgw2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50682/devtools/browser/2285893e-046b-4124-b7b6-68ed478525cd
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21488997, line 51: TypeError: m is null
+1670433911315	Marionette	INFO	Stopped listening on port 50687
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670433922870	geckodriver	INFO	Listening on 127.0.0.1:50734
+1670433925921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50735" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileCnXePk"
+1670433926461	Marionette	INFO	Marionette enabled
+1670433926469	Marionette	INFO	Listening on port 50740
+WebDriver BiDi listening on ws://127.0.0.1:50735
+1670433927193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileCnXePk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50735/devtools/browser/e06c8977-5cf3-4c73-b639-c0bb3a08d205
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=25491134, line 51: TypeError: m is null
+1670433936959	Marionette	INFO	Stopped listening on port 50740
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670433988317	geckodriver	INFO	Listening on 127.0.0.1:50796
+1670433991366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50797" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilehFKYjq"
+1670433991791	Marionette	INFO	Marionette enabled
+1670433991796	Marionette	INFO	Listening on port 50802
+WebDriver BiDi listening on ws://127.0.0.1:50797
+1670433991963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilehFKYjq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50797/devtools/browser/417a2e8a-e2f2-4bbe-b0b9-46ad04188121
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21488997, line 51: TypeError: m is null
+1670434018545	geckodriver	INFO	Listening on 127.0.0.1:50851
+1670434021599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50852" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileUiyKap"
+1670434022030	Marionette	INFO	Marionette enabled
+1670434022035	Marionette	INFO	Listening on port 50858
+WebDriver BiDi listening on ws://127.0.0.1:50852
+1670434022207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileUiyKap\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50852/devtools/browser/d4a3a7a9-6d32-41b2-b862-485f6c263bf4
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=21488997, line 51: TypeError: m is null
+1670434064402	geckodriver	INFO	Listening on 127.0.0.1:50917
+1670434067458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50918" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileMYJIss"
+1670434067879	Marionette	INFO	Marionette enabled
+1670434067884	Marionette	INFO	Listening on port 50924
+WebDriver BiDi listening on ws://127.0.0.1:50918
+1670434068037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileMYJIss\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50918/devtools/browser/29e2bc68-b8f7-46b4-9127-5f0900ac4f95
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=30757724, line 51: TypeError: m is null
+1670434162981	geckodriver	INFO	Listening on 127.0.0.1:51030
+1670434166021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51031" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileDXKoBb"
+1670434166448	Marionette	INFO	Marionette enabled
+1670434166453	Marionette	INFO	Listening on port 51037
+WebDriver BiDi listening on ws://127.0.0.1:51031
+1670434166629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileDXKoBb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51031/devtools/browser/2455d89e-a49f-4cef-9a3f-fc0ccfa4ea94
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=30757724, line 51: TypeError: m is null
+1670434227199	geckodriver	INFO	Listening on 127.0.0.1:51089
+1670434230229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51090" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilexkBk8p"
+1670434230672	Marionette	INFO	Marionette enabled
+1670434230678	Marionette	INFO	Listening on port 51098
+WebDriver BiDi listening on ws://127.0.0.1:51090
+1670434230826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilexkBk8p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51090/devtools/browser/45639f97-b3de-409d-9e48-7597d4379559
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=15643266, line 51: TypeError: m is null
+1670434239749	geckodriver	INFO	Listening on 127.0.0.1:51144
+1670434242796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51145" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile7qct2C"
+1670434243201	Marionette	INFO	Marionette enabled
+1670434243209	Marionette	INFO	Listening on port 51151
+WebDriver BiDi listening on ws://127.0.0.1:51145
+1670434243467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile7qct2C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51145/devtools/browser/deadb532-cff2-4b85-9227-4610eeef6bd0
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=30757724, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670434259860	Marionette	INFO	Stopped listening on port 51151
+1670434288035	geckodriver	INFO	Listening on 127.0.0.1:51199
+1670434291071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51200" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilePbDjpP"
+1670434291530	Marionette	INFO	Marionette enabled
+1670434291535	Marionette	INFO	Listening on port 51205
+WebDriver BiDi listening on ws://127.0.0.1:51200
+1670434291674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilePbDjpP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51200/devtools/browser/425f0d5c-3e4d-4068-8b5a-575994cc8dd5
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=15643266, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+1670434316138	Marionette	INFO	Stopped listening on port 51205
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670434320703	geckodriver	INFO	Listening on 127.0.0.1:51252
+1670434323762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51253" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile0JdlDN"
+1670434324162	Marionette	INFO	Marionette enabled
+1670434324167	Marionette	INFO	Listening on port 51258
+WebDriver BiDi listening on ws://127.0.0.1:51253
+1670434324477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile0JdlDN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51253/devtools/browser/90b0dcee-3080-4afd-af9f-0163b212950b
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=15643266, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670434760208	Marionette	INFO	Stopped listening on port 51258
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51311" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilebqb0Pb"
+1670434373793	Marionette	INFO	Marionette enabled
+1670434373798	Marionette	INFO	Listening on port 51316
+WebDriver BiDi listening on ws://127.0.0.1:51311
+1670434374113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilebqb0Pb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51311/devtools/browser/8351b05a-92e6-480b-aa72-a1d132b4d322
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=30757724, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670434761159	Marionette	INFO	Stopped listening on port 51316
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51371" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFGJavQ"
+1670434412567	Marionette	INFO	Marionette enabled
+1670434412574	Marionette	INFO	Listening on port 51376
+WebDriver BiDi listening on ws://127.0.0.1:51371
+1670434412718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFGJavQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51371/devtools/browser/a44ea0c3-2d10-4bc1-b197-5195761c70e2
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=30757724, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670434434571	Marionette	INFO	Stopped listening on port 51376
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670434586571	geckodriver	INFO	Listening on 127.0.0.1:51445
+1670434589611	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51446" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileQi8dUu"
+1670434590034	Marionette	INFO	Marionette enabled
+1670434590040	Marionette	INFO	Listening on port 51451
+WebDriver BiDi listening on ws://127.0.0.1:51446
+1670434590212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileQi8dUu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51446/devtools/browser/02af675c-713d-4aca-b9cc-d0ef3f0b3e3d
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=15643266, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670434762323	Marionette	INFO	Stopped listening on port 51451
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670436295589	geckodriver	INFO	Listening on 127.0.0.1:52151
+1670436298632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52152" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFAg13L"
+1670436299062	Marionette	INFO	Marionette enabled
+1670436299067	Marionette	INFO	Listening on port 52158
+WebDriver BiDi listening on ws://127.0.0.1:52152
+1670436299325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileFAg13L\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52152/devtools/browser/105663aa-d9e8-4b02-b65e-876417fc39de
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73375820, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=58003650, line 51: TypeError: m is null
+1670438452795	Marionette	INFO	Stopped listening on port 52158
+[Parent 15584, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+te-debugging-port" "52350" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilecNWd2u"
+1670436548116	Marionette	INFO	Marionette enabled
+1670436548122	Marionette	INFO	Listening on port 52360
+WebDriver BiDi listening on ws://127.0.0.1:52350
+1670436548281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilecNWd2u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52350/devtools/browser/8191aad4-9334-487a-8475-a1d6eae3a213
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73375820, line 51: TypeError: m is null
+1670436561553	Marionette	INFO	Stopped listening on port 52360
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670436601584	geckodriver	INFO	Listening on 127.0.0.1:52413
+1670436604636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52414" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileWRqmff"
+1670436605087	Marionette	INFO	Marionette enabled
+1670436605092	Marionette	INFO	Listening on port 52419
+WebDriver BiDi listening on ws://127.0.0.1:52414
+1670436605228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileWRqmff\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52414/devtools/browser/5d6ec91d-f5e3-425d-b221-e42f71eec92b
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73375820, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670436631950	Marionette	INFO	Stopped listening on port 52419
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670437418961	geckodriver	INFO	Listening on 127.0.0.1:52647
+1670437422023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52648" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilewjJGP1"
+1670437422474	Marionette	INFO	Marionette enabled
+1670437422479	Marionette	INFO	Listening on port 52653
+WebDriver BiDi listening on ws://127.0.0.1:52648
+1670437422619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilewjJGP1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52648/devtools/browser/7e7ed3c4-8912-442c-bd75-5b996ea7d0ad
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=52644864, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29552181, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29552181, line 51: TypeError: m is null
+1670438456034	Marionette	INFO	Stopped listening on port 52653
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+or this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilepgt2zD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52715/devtools/browser/79a017d1-f5ad-4b43-8749-b8696b5bd1fc
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=52644864, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+1670437530345	Marionette	INFO	Stopped listening on port 52720
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670437546611	geckodriver	INFO	Listening on 127.0.0.1:52769
+1670437549677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52770" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileMRb4w7"
+1670437550477	Marionette	INFO	Marionette enabled
+1670437550484	Marionette	INFO	Listening on port 52775
+WebDriver BiDi listening on ws://127.0.0.1:52770
+1670437550892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileMRb4w7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52770/devtools/browser/c0bc3301-ff0e-4962-aa0c-b3e4787ca5bb
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=52644864, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+1670437597820	Marionette	INFO	Stopped listening on port 52775
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670438206900	geckodriver	INFO	Listening on 127.0.0.1:53017
+1670438209944	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53018" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileT8zEw7"
+1670438210438	Marionette	INFO	Marionette enabled
+1670438210445	Marionette	INFO	Listening on port 53024
+WebDriver BiDi listening on ws://127.0.0.1:53018
+1670438210612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileT8zEw7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53018/devtools/browser/3321f315-8aa8-413e-bbc2-88fe243fa35c
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=98046240, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=40906930, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=49252596, line 51: TypeError: m is null
+1670438457130	Marionette	INFO	Stopped listening on port 53024
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670438628632	geckodriver	INFO	Listening on 127.0.0.1:53207
+1670438631689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53208" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileidNOml"
+1670438632110	Marionette	INFO	Marionette enabled
+1670438632114	Marionette	INFO	Listening on port 53214
+WebDriver BiDi listening on ws://127.0.0.1:53208
+1670438632270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileidNOml\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53208/devtools/browser/48e18ef9-8d86-4944-afaf-e25961fe2cae
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=44876846, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29552181, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=6246143, line 51: TypeError: m is null
+1670438681043	Marionette	INFO	Stopped listening on port 53214
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 9824, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670438856224	geckodriver	INFO	Listening on 127.0.0.1:53301
+1670438859291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53302" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilebw1lKR"
+1670438859706	Marionette	INFO	Marionette enabled
+1670438859711	Marionette	INFO	Listening on port 53307
+WebDriver BiDi listening on ws://127.0.0.1:53302
+1670438859871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilebw1lKR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53302/devtools/browser/9d54411b-f2ec-40d0-a54b-456dfb20c22e
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=98046240, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=29552181, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=40534920, line 51: TypeError: m is null
+1670438910986	Marionette	INFO	Stopped listening on port 53307
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670438935252	geckodriver	INFO	Listening on 127.0.0.1:53359
+1670438938307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53360" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile9B6dFF"
+1670438938728	Marionette	INFO	Marionette enabled
+1670438938733	Marionette	INFO	Listening on port 53366
+WebDriver BiDi listening on ws://127.0.0.1:53360
+1670438939002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofile9B6dFF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53360/devtools/browser/740f8a82-9ab0-4ff9-b625-a6ccc75717f8
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=98046240, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=66420139, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=40906930, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=6246143, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=20144114, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=85432666, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=1430601, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=44087219, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=65567295, line 51: TypeError: m is null
+1670439027372	Marionette	INFO	Stopped listening on port 53366
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 13792, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670440994540	geckodriver	INFO	Listening on 127.0.0.1:54053
+1670440997600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54054" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileXDVmRL"
+1670440998108	Marionette	INFO	Marionette enabled
+1670440998117	Marionette	INFO	Listening on port 54059
+WebDriver BiDi listening on ws://127.0.0.1:54054
+1670440998873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileXDVmRL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54054/devtools/browser/1630686f-ef41-4dfa-837b-e1ee81180efa
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=51559872, line 51: TypeError: m is null
+1670441012770	Marionette	INFO	Stopped listening on port 54059
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 10816, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1670441218740	geckodriver	INFO	Listening on 127.0.0.1:54128
+1670441221814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54129" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilezeaEqn"
+1670441222284	Marionette	INFO	Marionette enabled
+1670441222292	Marionette	INFO	Listening on port 54135
+WebDriver BiDi listening on ws://127.0.0.1:54129
+1670441222454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofilezeaEqn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54129/devtools/browser/0219fcd6-8748-41c4-9dfd-29b9287cc5df
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=91572204, line 51: TypeError: m is null
+1670441239313	Marionette	INFO	Stopped listening on port 54135
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670441465985	geckodriver	INFO	Listening on 127.0.0.1:60513
+1670441469365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60514" "-no-remote" "-profile" "C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi"
+1670441470181	Marionette	INFO	Marionette enabled
+1670441470190	Marionette	INFO	Listening on port 60542
+WebDriver BiDi listening on ws://127.0.0.1:60514
+1670441470774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60514/devtools/browser/c691d487-9362-43dc-9531-ccbdc8bebbeb
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=24683341, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=13262146, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=17319095, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=49252596, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=11170419, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=85432666, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=40284170, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=8856986, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=24945536, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=61004401, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=80158539, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=68460714, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=73671821, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=33274784, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=33452207, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=33779466, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=17789007, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=63212881, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=46958338, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=64538707, line 51: TypeError: m is null
+JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=65261812, line 51: TypeError: m is null
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 2988) to file C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 2805) to file C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
+JavaScript error: , line 0: uncaught exception: null

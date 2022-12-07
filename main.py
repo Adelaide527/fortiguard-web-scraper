@@ -1,17 +1,25 @@
 from sys import flags
 from bs4 import BeautifulSoup
-import urllib.request as urllib
-# import re
 import time
-# import smtplib
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By 
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 #Prep the browser
 service = Service('C:/WebDriver/bin/geckodriver.exe') #Define the service. geckodriver=Firefox
 browser = webdriver.Firefox(service=service) #Using FireFox browser
+
+def scroll_to_element(driver, element_locator):
+    actions = ActionChains(driver)
+    try:
+        actions.move_to_element(element_locator).perform()
+    except Exception.MoveTargetOutOfBoundsException as e:
+        print(e)
+        driver.execute_script("arguments[0].scrollIntoView(true);", element_locator)
 
 #Create file to save everything into
 outfile = open("output.txt", 'w')
@@ -51,9 +59,22 @@ browser.get('https://www.fortiguard.com/encyclopedia?type=ips') #Load page
 time.sleep(3) #Wait for page to load (giving 3 seconds)
 
 elements = browser.find_elements(By.CLASS_NAME, "title") #Find all titles
-for x in range (0, len(elements)):
-  time.sleep(1) #Wait for page to load (giving 3 seconds)
-  elements[x].click() #Go to title
+original_window = browser.current_window_handle #Store the ID of the original window
+assert len(browser.window_handles) == 1 #Check we don't have other windows open already
+
+for element in elements:
+  print(element)
+  time.sleep(3) #Wait for page to load (giving 3 seconds)
+  print(element.text)
+  link = element.find_element(By.LINK_TEXT, element.text)
+  browser.execute_script("window.scrollBy(0,400)");
+  # ActionChains(browser).move_to_element(element).perform()
+  # scroll_to_element(browser, element)
+  link = link.get_attribute("href")
+  print("Link: " + link)
+  browser.switch_to.new_window('window')
+  time.sleep(2) #Wait for page to load (giving 3 seconds)
+  browser.get(link)
   time.sleep(3) #Wait for page to load (giving 3 seconds)
   threat = Threat() #Define our threat (create instance of Threat class)
   threat.set_name(browser.find_element(By.CLASS_NAME, "detail-item").text)
@@ -63,8 +84,7 @@ for x in range (0, len(elements)):
   threat.set_reccomended_actions(browser.find_element(By.XPATH, "//div[@class='detail-item'][5]/p").text)
 
   outfile.write(threat.print())
-  browser.back()
+  browser.close() #Close the current tab
+  browser.switch_to.window(original_window)
   
-  
-outfile.close()
 browser.quit() #Done with Browser
