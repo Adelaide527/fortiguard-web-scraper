@@ -13,14 +13,6 @@ from selenium.webdriver.support import expected_conditions as EC
 service = Service('C:/WebDriver/bin/geckodriver.exe') #Define the service. geckodriver=Firefox
 browser = webdriver.Firefox(service=service) #Using FireFox browser
 
-def scroll_to_element(driver, element_locator):
-    actions = ActionChains(driver)
-    try:
-        actions.move_to_element(element_locator).perform()
-    except Exception.MoveTargetOutOfBoundsException as e:
-        print(e)
-        driver.execute_script("arguments[0].scrollIntoView(true);", element_locator)
-
 #Create file to save everything into
 outfile = open("output.txt", 'w')
 
@@ -63,27 +55,26 @@ original_window = browser.current_window_handle #Store the ID of the original wi
 assert len(browser.window_handles) == 1 #Check we don't have other windows open already
 
 for element in elements:
-  print(element)
   time.sleep(3) #Wait for page to load (giving 3 seconds)
-  print(element.text)
-  link = element.find_element(By.LINK_TEXT, element.text)
-  browser.execute_script("window.scrollBy(0,400)");
-  # ActionChains(browser).move_to_element(element).perform()
-  # scroll_to_element(browser, element)
-  link = link.get_attribute("href")
-  print("Link: " + link)
-  browser.switch_to.new_window('window')
-  time.sleep(2) #Wait for page to load (giving 3 seconds)
-  browser.get(link)
+  link = element.find_element(By.LINK_TEXT, element.text) #Find where the link is
+  browser.execute_script("window.scrollBy(0,300)") #Scroll to avoid not in scope error
+  link = link.get_attribute("href") #Get link
+  browser.switch_to.new_window('window') #Switch to new window
+  time.sleep(2) #Wait for page to load (giving 2 seconds)
+  browser.get(link) #Go to the link we saved
   time.sleep(3) #Wait for page to load (giving 3 seconds)
   threat = Threat() #Define our threat (create instance of Threat class)
+  
+  #Saving the elements of our threat, as defined in our class object
+  #We are looking for them by their class name "detail-item"
+  #Then, we are going to their child element (as necessary) so that we will only be saving the paragraph(s)
   threat.set_name(browser.find_element(By.CLASS_NAME, "detail-item").text)
   threat.set_description(browser.find_element(By.XPATH, "//div[@class='detail-item'][2]/p").text)
   threat.set_affected_products(browser.find_element(By.XPATH, "//div[@class='detail-item'][3]/p").text)
   threat.set_impact(browser.find_element(By.XPATH, "//div[@class='detail-item'][4]/p").text)
   threat.set_reccomended_actions(browser.find_element(By.XPATH, "//div[@class='detail-item'][5]/p").text)
 
-  outfile.write(threat.print())
+  outfile.write(threat.print()) #Write to our output file
   browser.close() #Close the current tab
   browser.switch_to.window(original_window)
   

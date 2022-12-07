@@ -1593,3 +1593,4 @@ JavaScript error: https://filestore.fortinet.com/scripts/privacy.min.js?c=652618
 console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 2988) to file C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
 console.error: "Could not write session state file " (new NotReadableError("Could not write chunk (size = 2805) to file C:\\Users\\Adela\\AppData\\Local\\Temp\\rust_mozprofileP5L8hi\\sessionstore-backups\\recovery.jsonlz4.tmp. The file may be corrupt.", (void 0))) ""
 JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
