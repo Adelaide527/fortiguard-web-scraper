@@ -8,6 +8,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchWindowException
 
 #Prep the browser
 service = Service('C:/WebDriver/bin/geckodriver.exe') #Define the service. geckodriver=Firefox
@@ -50,32 +52,61 @@ class Threat:
 browser.get('https://www.fortiguard.com/encyclopedia?type=ips') #Load page
 time.sleep(3) #Wait for page to load (giving 3 seconds)
 
-elements = browser.find_elements(By.CLASS_NAME, "title") #Find all titles
-original_window = browser.current_window_handle #Store the ID of the original window
-assert len(browser.window_handles) == 1 #Check we don't have other windows open already
+def get_details(browser, threat):
+      threat.set_name(browser.find_element(By.CLASS_NAME, "detail-item").text)
+      threat.set_description(browser.find_element(By.XPATH, "//div[@class='detail-item'][2]/p").text)
+      threat.set_affected_products(browser.find_element(By.XPATH, "//div[@class='detail-item'][3]/p").text)
+      threat.set_impact(browser.find_element(By.XPATH, "//div[@class='detail-item'][4]/p").text)
+      threat.set_reccomended_actions(browser.find_element(By.XPATH, "//div[@class='detail-item'][5]/p").text)
 
-for element in elements:
-  time.sleep(3) #Wait for page to load (giving 3 seconds)
-  link = element.find_element(By.LINK_TEXT, element.text) #Find where the link is
-  browser.execute_script("window.scrollBy(0,300)") #Scroll to avoid not in scope error
-  link = link.get_attribute("href") #Get link
-  browser.switch_to.new_window('window') #Switch to new window
-  time.sleep(2) #Wait for page to load (giving 2 seconds)
-  browser.get(link) #Go to the link we saved
-  time.sleep(3) #Wait for page to load (giving 3 seconds)
-  threat = Threat() #Define our threat (create instance of Threat class)
-  
-  #Saving the elements of our threat, as defined in our class object
-  #We are looking for them by their class name "detail-item"
-  #Then, we are going to their child element (as necessary) so that we will only be saving the paragraph(s)
-  threat.set_name(browser.find_element(By.CLASS_NAME, "detail-item").text)
-  threat.set_description(browser.find_element(By.XPATH, "//div[@class='detail-item'][2]/p").text)
-  threat.set_affected_products(browser.find_element(By.XPATH, "//div[@class='detail-item'][3]/p").text)
-  threat.set_impact(browser.find_element(By.XPATH, "//div[@class='detail-item'][4]/p").text)
-  threat.set_reccomended_actions(browser.find_element(By.XPATH, "//div[@class='detail-item'][5]/p").text)
+      outfile.write(threat.print()) #Write to our output file
 
-  outfile.write(threat.print()) #Write to our output file
-  browser.close() #Close the current tab
-  browser.switch_to.window(original_window)
+def page_scrape(browser):
+  elements = browser.find_elements(By.CLASS_NAME, "title") #Find all titles
+  original_window = browser.current_window_handle #Store the ID of the original window
+  assert len(browser.window_handles) == 1 #Check we don't have other windows open already
   
-browser.quit() #Done with Browser
+  for element in elements:
+    time.sleep(3) #Wait for page to load (giving 3 seconds)
+    link = element.find_element(By.LINK_TEXT, element.text) #Find where the link is
+    browser.execute_script("window.scrollBy(0,300)") #Scroll to avoid not in scope error
+    link = link.get_attribute("href") #Get link
+    browser.switch_to.new_window('window') #Switch to new window
+    
+    time.sleep(4) #Wait for page to load (giving 4 seconds)
+    browser.execute_script(f"location.href='{link}';") #Go to the link we saved
+    time.sleep(4) #Wait for page to load (giving 4 seconds)
+    threat = Threat() #Define our threat (create instance of Threat class)
+    
+    #Saving the elements of our threat, as defined in our class object
+    #We are looking for them by their class name "detail-item"
+    #Then, we are going to their child element (as necessary) so that we will only be saving the paragraph(s)
+    try:
+      get_details(browser, threat)
+      
+      #If we cannot read the threats
+    except NoSuchElementException:
+      time.sleep(5) #We will give it 5 more seconds to load the page
+      try:
+        get_details(browser, threat) #Then try again
+      except NoSuchElementException: #If we still can't find it
+        browser.execute_script(f"location.href='{link}';") #Fetch the link again
+        time.sleep(10) #Give it 10 seconds to laod in
+        get_details(browser, threat) #And try again
+    except NoSuchWindowException:
+      browser.refresh() #We will try refreshing the page
+      time.sleep(5) #Give it 5 seconds to load in 
+      get_details(browser, threat) #And try again
+    
+    browser.close() #Close the current tab
+    browser.switch_to.window(original_window) #Switch back to the original window
+
+
+page_scrape(browser) #Scrape first page
+while(browser.find_element(By.XPATH, "//*[@aria-label='Next']")): #While we still have a next page
+  browser.find_element(By.XPATH, "//*[@aria-label='Next']").click() #We click on it
+  page_scrape(browser) #And scrape the new page.
+  
+time.sleep(3) #Wait for page to load (giving 3 seconds)
+  
+#browser.quit() #Done with Browser
