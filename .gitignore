@@ -1,2 +1,3 @@
 #Ignore the geckodriver file
 geckodriver.log
+output.txt
