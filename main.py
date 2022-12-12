@@ -123,9 +123,9 @@ def page_scrape(browser, i):
 
 
 page_scrape(browser, i) #Scrape first page
-# while(browser.find_element(By.XPATH, "//*[@aria-label='Next']")): #While we still have a next page
-#   browser.find_element(By.XPATH, "//*[@aria-label='Next']").click() #We click on it
-#   page_scrape(browser, i) #And scrape the new page.
+while(browser.find_element(By.XPATH, "//*[@aria-label='Next']")): #While we still have a next page
+  browser.find_element(By.XPATH, "//*[@aria-label='Next']").click() #We click on it
+  page_scrape(browser, i) #And scrape the new page.
   
 wb.save('fortiguard_threats.xlsx')
   
