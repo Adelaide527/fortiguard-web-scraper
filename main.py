@@ -15,7 +15,7 @@ from openpyxl import Workbook
 global i #Oh god. I was told to never do this. but I need a global variable.
 global file_name
 
-file_name="fortiguard_threats_2.xlsx"
+file_name="fortiguard_threats_5.xlsx"
 
 #Prep the browser
 service = Service('C:/WebDriver/bin/geckodriver.exe') #Define the service. geckodriver=Firefox
@@ -24,8 +24,6 @@ browser = webdriver.Firefox(service=service) #Using FireFox browser
 #Create file to save everything into
 # outfile = open("output.txt", 'w')
 wb = Workbook()
-wb.create_sheet("Page1") #Create our first sheet
-ws = wb["Page1"] #Write to it
 i = 1 #Our page number
 
 class Threat:
@@ -67,7 +65,7 @@ class Threat:
     worksheet.cell(row=row, column=4, value=self.impact)
     worksheet.cell(row=row, column=5, value=self.reccomended_actions)
     
-browser.get('https://www.fortiguard.com/encyclopedia?type=ips&page=101') #Load page
+browser.get('https://www.fortiguard.com/encyclopedia?type=ips&page=401') #Load page
 time.sleep(3) #Wait for page to load (giving 3 seconds)
 
 def get_details(browser, threat, i, link):
