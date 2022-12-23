@@ -15,7 +15,7 @@ from openpyxl import Workbook
 global i #Oh god. I was told to never do this. but I need a global variable.
 global file_name
 
-file_name="fortiguard_threats_5.xlsx"
+file_name="fortiguard_threats_6.xlsx"
 
 #Prep the browser
 service = Service('C:/WebDriver/bin/geckodriver.exe') #Define the service. geckodriver=Firefox
@@ -65,7 +65,7 @@ class Threat:
     worksheet.cell(row=row, column=4, value=self.impact)
     worksheet.cell(row=row, column=5, value=self.reccomended_actions)
     
-browser.get('https://www.fortiguard.com/encyclopedia?type=ips&page=401') #Load page
+browser.get('https://www.fortiguard.com/encyclopedia?type=ips&page=480') #Load page
 time.sleep(3) #Wait for page to load (giving 3 seconds)
 
 def get_details(browser, threat, i, link):
@@ -141,8 +141,8 @@ page_scrape(browser, i) #Scrape first page
 while(browser.find_element(By.XPATH, "//*[@aria-label='Next']")): #While we still have a next page
   i=i+20
   wb.save(file_name)
-  browser.find_element(By.XPATH, "//*[@aria-label='Next']").click() #We click on it
   if(i<2000):
+    browser.find_element(By.XPATH, "//*[@aria-label='Next']").click() #We click on it
     page_scrape(browser, i) #Scrape the new page.
   else: #If we reach page 100
     wb.save(file_name) #We will do our final save
